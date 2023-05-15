@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oktavian Nikky Abprianto</title>
+
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <!--Custom CSS-->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Header Section-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <!-- <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a> -->
+        </nav>
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Oktavian</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Hey there, I'm thrilled to welcome you to my portfolio! I'm a programming enthusiast with a particular
+                passion for languages like Python, HTML, and more. I'm constantly improving my programming skills
+                through learning and working on exciting projects. I'm always eager to collaborate with others and take
+                on new projects that challenge me and push me to grow.</p>
+            <div class="social-media">
+                <a href="https://github.com/TryHard-777" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter' target="_blank"></i></a>
+                <a href="https://www.instagram.com/oktavian_na/" target="_blank"><i
+                        class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/oktavian-nikky-abprianto/" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="cv/Oktavian Nikky Abprianto-resume.pdf" class="btn"
+                download="oktavian Nikky Abprianto-resume">Download CV</a>
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div> -->
+    </section>
+
+    <!-- About Section design -->
+    <section class="about" id="about">
+        <!-- <div class="about-img">
+            <img src="images/home.png" alt="">
+        </div> -->
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Data Scientist</h3>
+            <p>Hi, I'm Oktavian, a passionate learner and Informatics major at Mercu Buana University. As someone who
+                is fascinated by the intersection of technology and innovation, I'm particularly interested in the
+                fields of Data Science, Machine Learning, Artificial Intelligence, and Web Development.</p>
+            <span id="extra-text" style="display:none">
+                <p>My enthusiasm for these areas of interest has led me to complete various projects and take on
+                    relevant coursework to expand my knowledge and skillset. I believe that keeping up-to-date with the
+                    latest advancements in technology is key to staying ahead of the curve in today's rapidly changing
+                    tech landscape.</p>
+                <p>When I'm not studying or working on projects, I enjoy reading and working out. I believe that having
+                    a well-balanced lifestyle is crucial to maintaining motivation and creativity in both personal and
+                    professional pursuits.</p>
+                <p>Thanks for taking the time to learn a bit more about me, and I look forward to sharing my work with
+                    you!</p>
+            </span>
+            <button id="toggle-btn" onclick="toggleExtra()" class="btn">Read More</button>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>In Web Development, I create websites and web applications using programming languages like HTML,
+                    CSS, and JavaScript. I am learning how to use these languages to build the front-end user interface
+                    and the back-end server-side functionality. I start by creating simple web pages working to upgrade
+                    my skills more.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-data'></i>
+                <h3>Data Scientist</h3>
+                <p>In Data Science, I work with large datasets to find patterns, trends, and relationships. I am in the
+                    process of learning skills like data cleaning, data exploration, data modeling, and data
+                    visualization. I use programming languages such as Python and R, as well as tools like SQL and
+                    Tableau, to manipulate and analyze data.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Data Analyst</h3>
+                <p>In Data Analysis, I work with data to find insights and make informed decisions. I collect, clean,
+                    and organize data using tools like Excel, SQL, or Python. Then, I analyze the data to find patterns,
+                    trends, and relationships that can help answer business questions. I create visualizations and
+                    reports to present the findings to stakeholders.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section Design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Creating a simple website design.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather Prediction</h4>
+                    <p>Analyzing the weather and forecasting.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Life Expectancy Analyze</h4>
+                    <p>Analyzing the cause of people life expectancy.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Chat Bot</h4>
+                    <p>Creating chat bot for social media.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Formatted Text</h4>
+                    <p>Making the unformatted text become neat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Titanic Survivor Prediction</h4>
+                    <p>Analyzing and predicting the survivor of Titanic.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--End of Header Section-->
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+
+    <!--Custom JS-->
+    <script src="script.js"></script>
+</body>
+
+</html>
