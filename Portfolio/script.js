@@ -3,8 +3,8 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toogle('bx-x');
-    navbar.classList.toogle('active');
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
 };
 
 // scroll sections active link
